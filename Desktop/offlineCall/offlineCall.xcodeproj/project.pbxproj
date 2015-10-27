@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124263491BD9FC5700D70A75 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124263481BD9FC5700D70A75 /* AVFoundation.framework */; };
+		12504E721BD63BD20026E167 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12504E711BD63BD20026E167 /* main.m */; };
+		12504E751BD63BD20026E167 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12504E741BD63BD20026E167 /* AppDelegate.m */; };
+		12504E781BD63BD20026E167 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12504E771BD63BD20026E167 /* ViewController.m */; };
+		12504E7B1BD63BD20026E167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12504E791BD63BD20026E167 /* Main.storyboard */; };
+		12504E7D1BD63BD20026E167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12504E7C1BD63BD20026E167 /* Assets.xcassets */; };
+		12504E801BD63BD20026E167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12504E7E1BD63BD20026E167 /* LaunchScreen.storyboard */; };
+		12504E8B1BD63BD20026E167 /* offlineCallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12504E8A1BD63BD20026E167 /* offlineCallTests.m */; };
+		12504E961BD63BD30026E167 /* offlineCallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12504E951BD63BD30026E167 /* offlineCallUITests.m */; };
+		12D1F7011BD75E8C00C50D90 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D1F7001BD75E8C00C50D90 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12504E871BD63BD20026E167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12504E651BD63BD10026E167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12504E6C1BD63BD20026E167;
+			remoteInfo = offlineCall;
+		};
+		12504E921BD63BD20026E167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12504E651BD63BD10026E167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12504E6C1BD63BD20026E167;
+			remoteInfo = offlineCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		124263481BD9FC5700D70A75 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		12504E6D1BD63BD20026E167 /* offlineCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = offlineCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12504E711BD63BD20026E167 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12504E731BD63BD20026E167 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12504E741BD63BD20026E167 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12504E761BD63BD20026E167 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12504E771BD63BD20026E167 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12504E7A1BD63BD20026E167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12504E7C1BD63BD20026E167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12504E7F1BD63BD20026E167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12504E811BD63BD20026E167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12504E861BD63BD20026E167 /* offlineCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = offlineCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12504E8A1BD63BD20026E167 /* offlineCallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = offlineCallTests.m; sourceTree = "<group>"; };
+		12504E8C1BD63BD20026E167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12504E911BD63BD20026E167 /* offlineCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = offlineCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12504E951BD63BD30026E167 /* offlineCallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = offlineCallUITests.m; sourceTree = "<group>"; };
+		12504E971BD63BD30026E167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D1F7001BD75E8C00C50D90 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12504E6A1BD63BD20026E167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124263491BD9FC5700D70A75 /* AVFoundation.framework in Frameworks */,
+				12D1F7011BD75E8C00C50D90 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12504E831BD63BD20026E167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12504E8E1BD63BD20026E167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12504E641BD63BD10026E167 = {
+			isa = PBXGroup;
+			children = (
+				124263481BD9FC5700D70A75 /* AVFoundation.framework */,
+				12D1F7001BD75E8C00C50D90 /* AudioToolbox.framework */,
+				12504E6F1BD63BD20026E167 /* offlineCall */,
+				12504E891BD63BD20026E167 /* offlineCallTests */,
+				12504E941BD63BD30026E167 /* offlineCallUITests */,
+				12504E6E1BD63BD20026E167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12504E6E1BD63BD20026E167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12504E6D1BD63BD20026E167 /* offlineCall.app */,
+				12504E861BD63BD20026E167 /* offlineCallTests.xctest */,
+				12504E911BD63BD20026E167 /* offlineCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12504E6F1BD63BD20026E167 /* offlineCall */ = {
+			isa = PBXGroup;
+			children = (
+				12504E731BD63BD20026E167 /* AppDelegate.h */,
+				12504E741BD63BD20026E167 /* AppDelegate.m */,
+				12504E761BD63BD20026E167 /* ViewController.h */,
+				12504E771BD63BD20026E167 /* ViewController.m */,
+				12504E791BD63BD20026E167 /* Main.storyboard */,
+				12504E7C1BD63BD20026E167 /* Assets.xcassets */,
+				12504E7E1BD63BD20026E167 /* LaunchScreen.storyboard */,
+				12504E811BD63BD20026E167 /* Info.plist */,
+				12504E701BD63BD20026E167 /* Supporting Files */,
+			);
+			path = offlineCall;
+			sourceTree = "<group>";
+		};
+		12504E701BD63BD20026E167 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12504E711BD63BD20026E167 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12504E891BD63BD20026E167 /* offlineCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				12504E8A1BD63BD20026E167 /* offlineCallTests.m */,
+				12504E8C1BD63BD20026E167 /* Info.plist */,
+			);
+			path = offlineCallTests;
+			sourceTree = "<group>";
+		};
+		12504E941BD63BD30026E167 /* offlineCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12504E951BD63BD30026E167 /* offlineCallUITests.m */,
+				12504E971BD63BD30026E167 /* Info.plist */,
+			);
+			path = offlineCallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12504E6C1BD63BD20026E167 /* offlineCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12504E9A1BD63BD30026E167 /* Build configuration list for PBXNativeTarget "offlineCall" */;
+			buildPhases = (
+				12504E691BD63BD20026E167 /* Sources */,
+				12504E6A1BD63BD20026E167 /* Frameworks */,
+				12504E6B1BD63BD20026E167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = offlineCall;
+			productName = offlineCall;
+			productReference = 12504E6D1BD63BD20026E167 /* offlineCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12504E851BD63BD20026E167 /* offlineCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12504E9D1BD63BD30026E167 /* Build configuration list for PBXNativeTarget "offlineCallTests" */;
+			buildPhases = (
+				12504E821BD63BD20026E167 /* Sources */,
+				12504E831BD63BD20026E167 /* Frameworks */,
+				12504E841BD63BD20026E167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12504E881BD63BD20026E167 /* PBXTargetDependency */,
+			);
+			name = offlineCallTests;
+			productName = offlineCallTests;
+			productReference = 12504E861BD63BD20026E167 /* offlineCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12504E901BD63BD20026E167 /* offlineCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12504EA01BD63BD30026E167 /* Build configuration list for PBXNativeTarget "offlineCallUITests" */;
+			buildPhases = (
+				12504E8D1BD63BD20026E167 /* Sources */,
+				12504E8E1BD63BD20026E167 /* Frameworks */,
+				12504E8F1BD63BD20026E167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12504E931BD63BD20026E167 /* PBXTargetDependency */,
+			);
+			name = offlineCallUITests;
+			productName = offlineCallUITests;
+			productReference = 12504E911BD63BD20026E167 /* offlineCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12504E651BD63BD10026E167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Zaptech;
+				TargetAttributes = {
+					12504E6C1BD63BD20026E167 = {
+						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					12504E851BD63BD20026E167 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 12504E6C1BD63BD20026E167;
+					};
+					12504E901BD63BD20026E167 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 12504E6C1BD63BD20026E167;
+					};
+				};
+			};
+			buildConfigurationList = 12504E681BD63BD10026E167 /* Build configuration list for PBXProject "offlineCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12504E641BD63BD10026E167;
+			productRefGroup = 12504E6E1BD63BD20026E167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12504E6C1BD63BD20026E167 /* offlineCall */,
+				12504E851BD63BD20026E167 /* offlineCallTests */,
+				12504E901BD63BD20026E167 /* offlineCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12504E6B1BD63BD20026E167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12504E801BD63BD20026E167 /* LaunchScreen.storyboard in Resources */,
+				12504E7D1BD63BD20026E167 /* Assets.xcassets in Resources */,
+				12504E7B1BD63BD20026E167 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12504E841BD63BD20026E167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12504E8F1BD63BD20026E167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12504E691BD63BD20026E167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12504E781BD63BD20026E167 /* ViewController.m in Sources */,
+				12504E751BD63BD20026E167 /* AppDelegate.m in Sources */,
+				12504E721BD63BD20026E167 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12504E821BD63BD20026E167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12504E8B1BD63BD20026E167 /* offlineCallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12504E8D1BD63BD20026E167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12504E961BD63BD30026E167 /* offlineCallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12504E881BD63BD20026E167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12504E6C1BD63BD20026E167 /* offlineCall */;
+			targetProxy = 12504E871BD63BD20026E167 /* PBXContainerItemProxy */;
+		};
+		12504E931BD63BD20026E167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12504E6C1BD63BD20026E167 /* offlineCall */;
+			targetProxy = 12504E921BD63BD20026E167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12504E791BD63BD20026E167 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12504E7A1BD63BD20026E167 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12504E7E1BD63BD20026E167 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12504E7F1BD63BD20026E167 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12504E981BD63BD30026E167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12504E991BD63BD30026E167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12504E9B1BD63BD30026E167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hemant Kumar (GT45M7EK4W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hemant Kumar (GT45M7EK4W)";
+				INFOPLIST_FILE = offlineCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.offlineCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8faf6ce0-f55b-453c-b22c-9b70aa5f9810";
+			};
+			name = Debug;
+		};
+		12504E9C1BD63BD30026E167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hemant Kumar (GT45M7EK4W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hemant Kumar (GT45M7EK4W)";
+				INFOPLIST_FILE = offlineCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.offlineCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8faf6ce0-f55b-453c-b22c-9b70aa5f9810";
+			};
+			name = Release;
+		};
+		12504E9E1BD63BD30026E167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = offlineCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.offlineCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/offlineCall.app/offlineCall";
+			};
+			name = Debug;
+		};
+		12504E9F1BD63BD30026E167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = offlineCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.offlineCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/offlineCall.app/offlineCall";
+			};
+			name = Release;
+		};
+		12504EA11BD63BD30026E167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = offlineCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.offlineCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = offlineCall;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		12504EA21BD63BD30026E167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = offlineCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaptechsolutions.offlineCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = offlineCall;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12504E681BD63BD10026E167 /* Build configuration list for PBXProject "offlineCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12504E981BD63BD30026E167 /* Debug */,
+				12504E991BD63BD30026E167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12504E9A1BD63BD30026E167 /* Build configuration list for PBXNativeTarget "offlineCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12504E9B1BD63BD30026E167 /* Debug */,
+				12504E9C1BD63BD30026E167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12504E9D1BD63BD30026E167 /* Build configuration list for PBXNativeTarget "offlineCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12504E9E1BD63BD30026E167 /* Debug */,
+				12504E9F1BD63BD30026E167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12504EA01BD63BD30026E167 /* Build configuration list for PBXNativeTarget "offlineCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12504EA11BD63BD30026E167 /* Debug */,
+				12504EA21BD63BD30026E167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12504E651BD63BD10026E167 /* Project object */;
+}
